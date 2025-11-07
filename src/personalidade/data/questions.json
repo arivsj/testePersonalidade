@@ -1,0 +1,143 @@
+{
+  "instructions": {
+    "title": "Teste de Personalidade MBTI",
+    "description": "Este teste é baseado nas quatro dicotomias do Indicador de Tipo Myers-Briggs (MBTI): Fonte de Energia, Forma de Coletar Informação, Processo para Tomar Decisões e Estilo de Vida/Organização.",
+    "scale": {
+      "1": "Discordo Totalmente",
+      "2": "Discordo Parcialmente", 
+      "3": "Neutro / Não se Aplica",
+      "4": "Concordo Parcialmente",
+      "5": "Concordo Totalmente"
+    }
+  },
+  "categories": [
+    {
+      "id": "EI",
+      "name": "Fonte de Energia",
+      "fullName": "Extroversão (E) vs. Introversão (I)",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Sinto-me energizado(a) após passar tempo em grandes grupos ou eventos sociais.",
+          "dimension": "E"
+        },
+        {
+          "id": 2,
+          "text": "Gosto de ser o(a) centro das atenções e de falar em voz alta.",
+          "dimension": "E"
+        },
+        {
+          "id": 3,
+          "text": "Prefiro interagir com o mundo exterior e agir, em vez de refletir internamente.",
+          "dimension": "E"
+        },
+        {
+          "id": 4,
+          "text": "Tenho muitos amigos e conhecidos, e busco ativamente novas conexões.",
+          "dimension": "E"
+        },
+        {
+          "id": 5,
+          "text": "Penso melhor enquanto falo sobre o assunto com outras pessoas.",
+          "dimension": "E"
+        }
+      ]
+    },
+    {
+      "id": "SN",
+      "name": "Forma de Coletar Informação",
+      "fullName": "Sensação (S) vs. Intuição (N)",
+      "questions": [
+        {
+          "id": 6,
+          "text": "Confio mais em fatos concretos, dados e experiências passadas do que em teorias.",
+          "dimension": "S"
+        },
+        {
+          "id": 7,
+          "text": "Presto muita atenção aos detalhes práticos e ao que está acontecendo no momento.",
+          "dimension": "S"
+        },
+        {
+          "id": 8,
+          "text": "Gosto de instruções claras e passo a passo, e sou realista sobre o que é possível.",
+          "dimension": "S"
+        },
+        {
+          "id": 9,
+          "text": "Minhas descrições são literais e focadas no que pode ser visto, ouvido ou tocado.",
+          "dimension": "S"
+        },
+        {
+          "id": 10,
+          "text": "Sou mais prático(a) e gosto de aplicar habilidades que já domino.",
+          "dimension": "S"
+        }
+      ]
+    },
+    {
+      "id": "TF",
+      "name": "Processo para Tomar Decisões",
+      "fullName": "Pensamento (T) vs. Sentimento (F)",
+      "questions": [
+        {
+          "id": 11,
+          "text": "Ao tomar decisões, priorizo a lógica, a objetividade e a justiça, mesmo que isso magoe alguém.",
+          "dimension": "T"
+        },
+        {
+          "id": 12,
+          "text": "Sou bom(a) em analisar prós e contras de forma impessoal e crítica.",
+          "dimension": "T"
+        },
+        {
+          "id": 13,
+          "text": "Acredito que a verdade é mais importante do que a harmonia ou o conforto emocional.",
+          "dimension": "T"
+        },
+        {
+          "id": 14,
+          "text": "Sou visto(a) como firme e racional, e não me deixo levar facilmente por emoções.",
+          "dimension": "T"
+        },
+        {
+          "id": 15,
+          "text": "Gosto de encontrar falhas em argumentos para torná-los mais sólidos.",
+          "dimension": "T"
+        }
+      ]
+    },
+    {
+      "id": "JP",
+      "name": "Estilo de Vida/Organização",
+      "fullName": "Julgamento (J) vs. Percepção (P)",
+      "questions": [
+        {
+          "id": 16,
+          "text": "Gosto de ter planos definidos, listas de tarefas e de cumprir prazos rigorosamente.",
+          "dimension": "J"
+        },
+        {
+          "id": 17,
+          "text": "Sinto-me mais confortável quando as decisões são tomadas e os assuntos estão resolvidos.",
+          "dimension": "J"
+        },
+        {
+          "id": 18,
+          "text": "Sou organizado(a) e metódico(a), e prefiro evitar surpresas de última hora.",
+          "dimension": "J"
+        },
+        {
+          "id": 19,
+          "text": "Minha vida é estruturada e sigo uma rotina ou cronograma na maioria das vezes.",
+          "dimension": "J"
+        },
+        {
+          "id": 20,
+          "text": "O trabalho deve vir antes do lazer, e só relaxo quando as obrigações estão concluídas.",
+          "dimension": "J"
+        }
+      ]
+    }
+  ]
+}

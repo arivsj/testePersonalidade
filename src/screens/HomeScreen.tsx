@@ -1,5 +1,6 @@
 import { MaterialIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
+import { Link } from 'expo-router';
 import React from 'react';
 import {
   Dimensions,
@@ -14,17 +15,7 @@ import {
 
 const { width } = Dimensions.get('window');
 
-interface HomeScreenProps {
-  navigation?: any;
-}
-
-const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
-  const handleStartTest = () => {
-    // Navegar para a tela de teste
-    if (navigation) {
-      navigation.navigate('Test');
-    }
-  };
+const HomeScreen: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container}>
@@ -62,16 +53,18 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
         </View>
 
         {/* CTA Button */}
-        <TouchableOpacity onPress={handleStartTest} activeOpacity={0.8}>
-          <LinearGradient
-            colors={['#5A2D8F', '#E93E7F']}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 0 }}
-            style={styles.ctaButton}
-          >
-            <Text style={styles.ctaButtonText}>COMEÇAR TESTE</Text>
-          </LinearGradient>
-        </TouchableOpacity>
+        <Link href="/questionarioMBTI" asChild>
+          <TouchableOpacity activeOpacity={0.8}>
+            <LinearGradient
+              colors={['#5A2D8F', '#E93E7F']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 0 }}
+              style={styles.ctaButton}
+            >
+              <Text style={styles.ctaButtonText}>COMEÇAR TESTE</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+        </Link>
       </View>
 
       {/* Bottom Navigation */}
